@@ -10,14 +10,14 @@ python个人学习用记录项目
 
 ## 学习笔记
 ### 1.关于None为真为假:  
-   ```
-   >>> ()==None
-  False
-  >>> None is []
-  False
-  >>> a=()
-  >>> a==()
-  True
-  >>> a==None
-  False
-   ```
+```
+>>> ()==None
+False
+>>> None is []
+False
+>>> a=()
+>>> a==()
+True
+>>> a==None
+False
+```
