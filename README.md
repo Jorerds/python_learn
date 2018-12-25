@@ -7,6 +7,7 @@ python个人学习用记录项目
 [递归写法](https://github.com/Jorerds/python_learn/blob/master/factorial.py)  
 [插入排序](https://github.com/Jorerds/python_learn/blob/master/inse_sort.py)  
 [time库的使用](https://github.com/Jorerds/python_learn/blob/master/times.py)    
+[日志装饰器](https://github.com/Jorerds/python_learn/blob/master/decor.py)
 
 ## 学习笔记
 ### 1.关于None为真为假:  
