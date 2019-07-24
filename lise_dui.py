@@ -16,11 +16,13 @@ def lotte_tick():
     # 最终和1-16个蓝球组合      
     finally_set=[(j,c) for c in range(1,16) for j in red]
     print len(finally_set) #最终有16613520组合
+    
     return finally_set
 
 def random_select(set,sum):
     '''随机选取组合'''
     slist=random.sample(set,sum)
+    
     return slist
     
 if__name__=="__main__":
