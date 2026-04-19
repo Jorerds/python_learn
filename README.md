@@ -2,6 +2,12 @@
 
 python个人学习用记录项目
 
+## 面试记录
+
+以下记录了一些个人在面试时候遇到的案例和问题
+
+[点击查看](/record/interview.md)
+
 ## 个人学习项目目录
 
 [冒泡排序](https://github.com/Jorerds/python_learn/blob/master/Bubble_sort.py)  
@@ -27,10 +33,6 @@ python个人学习用记录项目
 [world模版占位符替换](https://github.com/Jorerds/python_learn/blob/master/insert_world.py)
 
 [读取excel图表，保存图片到本地](https://github.com/Jorerds/python_learn/blob/master/table_img.py)
-
-
-
-
 
 ## 学习笔记
 
