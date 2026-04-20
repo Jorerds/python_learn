@@ -60,17 +60,17 @@ def validate_unix_time(unix_time):
     """
     data_time=''
     if len(str(unix_time)) < 13:
-        # 秒级
-        data_time=pd.to_datetime(unix_time,unit='s')
+        # 秒级 标记utc时区，然后再转中国时区
+        data_time=pd.to_datetime(unix_time,unit='s',utc=True).tz_convert('Asia/Shanghai')
     elif len(str(unix_time)) == 13:
         # 毫秒级
-        data_time=pd.to_datetime(unix_time,unit='ms')
+        data_time=pd.to_datetime(unix_time,unit='ms',utc=True).tz_convert('Asia/Shanghai')
     elif len(str(unix_time)) == 16:
         # 微秒级
-        data_time=pd.to_datetime(unix_time,unit='us')
+        data_time=pd.to_datetime(unix_time,unit='us',utc=True).tz_convert('Asia/Shanghai')
     elif len(str(unix_time)) == 19:
         # 纳秒级
-        data_time=pd.to_datetime(unix_time,unit='ns')
+        data_time=pd.to_datetime(unix_time,unit='ns',utc=True).tz_convert('Asia/Shanghai')
     return data_time
 
 
