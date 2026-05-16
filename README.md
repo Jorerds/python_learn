@@ -34,6 +34,10 @@ python个人学习用记录项目
 
 [读取excel图表，保存图片到本地](https://github.com/Jorerds/python_learn/blob/master/table_img.py)
 
+[异步协程爬虫](asyncCrawler.py)
+
+[ai大模型api接口调用](aiRequest.py)
+
 ## 学习笔记
 
 ### 1.关于None为真为假:
